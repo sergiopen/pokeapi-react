@@ -1,0 +1,127 @@
+body{
+    font-size: 1.1rem;
+}
+
+.pokemon-types-container a{
+    height: 1.75rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 100vmax;
+    font-size: .90rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    margin-top: 1rem;
+}
+
+.grass{
+    color: #000;
+    background-color: lime;
+}
+
+.normal{
+    background-color: #999999;
+    color: #000;
+}
+
+.ghost{
+    background-color: purple;
+    color: #fff;
+}
+
+.water{
+    background-color: aqua;
+    color: #fff;
+}
+
+.psychic{
+    background-color: pink;
+}
+
+.ice{
+    background-color: aquamarine;
+    color: #000;
+}
+
+.poison{
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.fire{
+    background-color: orange;
+    color: #000;
+}
+
+.electric{
+    background-color: yellow;
+    color: #000;
+}
+
+.rock{
+    background-color: rgb(199, 135, 40);
+}
+
+.ground{
+    background-color: burlywood;
+}
+
+.pokemon-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 2%;
+}
+
+.pokemon-title{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.pokemon-title span{
+    color: #616161;
+}
+
+.section-info{
+    max-width: 85%;
+}
+
+.pokemon-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    max-width: 95%;
+    margin: auto;
+}
+
+.stats-info{
+    background-color: #30a7d7;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.pokemon-description{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.pokemon-types-container{
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.pokemon-types-container ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.stat-title{
+    color: #000;
+}
