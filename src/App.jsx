@@ -14,8 +14,8 @@ export const App = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/pokemon' element={<Pokemon />}/>
         <Route path='/pokemon/:pokemons' element={<PokemonInfo />}/>
-        <Route path='/item' element={<Item />}/>
-        <Route path='*' element={<h1>Not found</h1>}></Route>
+        <Route path='/type/:types'></Route>
+        <Route path='*' element={<h1>404: Error</h1>}></Route>
       </Routes>
     </>
   )
